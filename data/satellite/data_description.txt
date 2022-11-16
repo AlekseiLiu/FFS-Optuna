@@ -1,0 +1,7 @@
+http://odds.cs.stonybrook.edu/satellite-dataset/
+
+Description: X = Multi-dimensional point data, y = labels (1 = outliers, 0 = inliers)
+
+
+
+

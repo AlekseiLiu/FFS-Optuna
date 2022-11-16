@@ -1,0 +1,1 @@
+[('data_name', 'satimage-2'), ('time', 1800), ('n_trials', 10), ('cross_validation', 3), ('features_explore', 8), ('scoring_function', 'f1'), ('sampler', 'nsga2'), ('novelty', True), ('random_seed', 1985)]

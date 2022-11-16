@@ -1,0 +1,7 @@
+http://odds.cs.stonybrook.edu/satimage-2-dataset/
+
+Description: X = Multi-dimensional point data, y = labels (1 = outliers, 0 = inliers)
+
+
+
+
