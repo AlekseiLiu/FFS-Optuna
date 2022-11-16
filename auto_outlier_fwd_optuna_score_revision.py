@@ -306,11 +306,6 @@ for i in range(2, min(FEAT_X, X_train.shape[1]+1)):
     
     print(track)
     
-    
-
-
-
-
 
 
 """ weak baseline """
@@ -417,10 +412,6 @@ with open(time_path + '/' + 'setup.txt', 'w') as f:
 
 
 
-
-    
-
-
 ########################## plot results #################
 
 #Ceck if last features really able to descriminate
@@ -443,9 +434,9 @@ ax1.plot(x_left, track[11][:n_features], 'b:', label='outlier det weak base')
 ax1.xaxis.set_major_locator(MaxNLocator(nbins = 20, integer=True))
 ax1.set_title('pareto front for '+ data_name + ' data, with FFS')
 ax1.set_xlabel('sparsity [# features]')
-ax1.set_ylabel(SCORE + ' score') #'f_1(outliers considered as positive)')
+ax1.set_ylabel(SCORE + ' score') 
 ax1.legend(fontsize=8)
-# right plot
+
 
 
 f.tight_layout()
